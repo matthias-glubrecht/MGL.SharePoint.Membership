@@ -1,0 +1,4 @@
+﻿<%@ ServiceHost Language="C#" Debug="false"
+    Service="MGL.SharePoint.MembershipService, $SharePoint.Project.AssemblyFullName$"
+    CodeBehind="Membership.svc.cs"
+    Factory="Microsoft.SharePoint.Client.Services.MultipleBaseAddressWebServiceHostFactory, Microsoft.SharePoint.Client.ServerRuntime, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>

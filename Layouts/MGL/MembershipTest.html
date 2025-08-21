@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Testseite für den SharePoint-Membership-Service</title>
+
+    <link rel="stylesheet" type="text/css" href="MembershipTest.css" />
+
+    <script src="MembershipTest.js"></script>
+</head>
+<body>
+    <h1>Testseite für den SharePoint-Membership-Service</h1>
+    <p>Sie befinden sich hier: <span id="spanSite"></span> [<a id="aSiteSettings" href="#" target="_blank">Websiteeinstellungen</a>]</p>
+    <div class="input">
+        <label>Methode</label>
+        <select id="selOperation">
+            <option selected value="">Bitte auswählen</option>
+        </select>
+        <div id="parms" class="parameter">
+        </div>
+        <button type="button" id="btnSubmit" disabled>Aufrufen</button>
+    </div>
+    <div class="url">
+        <label>Url</label><span id="spanUrl"></span>
+    </div>
+    <div id="output"></div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="13766800-547c-42de-988b-7b236e0a14eb" solutionId="13766800-547c-42de-988b-7b236e0a14eb" resetWebServer="false" sharePointProductVersion="19.0" name="MGL.SharePoint.Membership" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="2058628e-68d3-44f6-a25c-fdbe56411981" />
+    <projectItemReference itemId="698da058-dcae-4782-83db-11a9d8ee2923" />
+  </projectItems>
+</package>
